@@ -1,13 +1,14 @@
 import Navbar from "../components/Navbar"
 
-const Home = () => {
+const Users = () => {
 
   return (
     <>
     <Navbar/>
-    <h1>Akan menjadi halaman Login</h1>
+    <h1>akan berisikan daftar users</h1>
     </>
+    
   )
 }
 
-export default Home
+export default Users
