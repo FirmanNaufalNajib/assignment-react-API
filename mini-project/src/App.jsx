@@ -1,13 +1,65 @@
-
+import Home from "./Pages/Home"
 
 function App() {
   
 
   return (
     <>
-      <h1>Preparation</h1>
+      <Home/>
     </>
   )
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
