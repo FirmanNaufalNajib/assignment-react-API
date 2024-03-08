@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 import Navbar from "../components/Navbar"
-import UsersItem from "../components/UserItem"
+import UsersItem from "../components/UsersItem"
 import axios from "axios"
+import { Link } from "react-router-dom"
 
 const Users = () => {
   const [usersData, setUsersData] = useState([])
@@ -25,11 +26,14 @@ const Users = () => {
         (
         <div>
           <UsersItem 
-          first_name={item.first_name} 
-          last_name={item.last_name} 
-          email={item.email} 
-          avatar={item.avatar}
+            first_name={item.first_name} 
+            last_name={item.last_name} 
+            email={item.email} 
+            avatar={item.avatar}
           />
+          <Link to={`/users/${item.id}`}>
+            <button>Detail</button>
+          </Link>
         </div>
         )
         )}
