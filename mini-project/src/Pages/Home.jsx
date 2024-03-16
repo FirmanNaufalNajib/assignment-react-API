@@ -1,9 +1,7 @@
 import {Link, useNavigate} from "react-router-dom"
 import Navbar from "../components/Navbar"
 import bodyImage from "../assets/images/email-campaign-concept-illustration/bodyImage.jpg"
-import "./pages.css"
-
-
+//import "./pages.css"
 
 const Home = () => {
   const logoutNavigate = useNavigate()

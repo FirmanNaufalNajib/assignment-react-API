@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import UsersItem from "../components/UsersItem"
 import Navbar from "../components/Navbar"
-import "./pages.css"
+//import "./pages.css"
 
 const Users = () => {
   const [usersData, setUsersData] = useState([])
