@@ -1,7 +1,8 @@
 
-const Form = () => {
+const Form = (props) => {
 
   return (
+    <>
 
     <div id="register-box">
     <input type="text" placeholder="Full Name"></input>
@@ -11,6 +12,9 @@ const Form = () => {
     <input type="password" placeholder="Confirm Password"></input>
     <button>Sign Up</button>
     </div>
-    
+
+    </>
   )
 }
+
+export default Form
