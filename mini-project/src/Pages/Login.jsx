@@ -32,7 +32,6 @@ const Login = () => {
     axios
     .post('https://reqres.in/api/login', payload)
     .then(res => {
-      console.log(res)
       const token = res?.data?.token
       localStorage.setItem("token", token)
         setLoading(false)

@@ -21,12 +21,14 @@ const UsersDetail = () => {
   return (
     <>
       <Navbar/>
+      <div className="user-detail">
+      <h1>meet {usersDetailData.first_name}</h1>
       <UsersItem 
       first_name={usersDetailData.first_name} 
       last_name={usersDetailData.last_name} 
       avatar={usersDetailData.avatar} 
-      email={usersDetailData.email}
-      />
+      email={usersDetailData.email}/>
+      </div>
     </>
   )
 }
