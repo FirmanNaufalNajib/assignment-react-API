@@ -1,0 +1,228 @@
+@media (min-width: 480px) {
+
+  * {
+    font-family: "Poppins", sans-serif;;
+  }
+  
+  
+  /* Home.jsx */
+  
+  .home-container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .home-body {
+    display: flex;
+    gap: 100px;
+  }
+  .body-heading {
+    
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #1b2e35;
+  }
+  .body-description {
+    width: 50vw;
+  }
+  .body-par {
+    line-height: 1.7;
+    font-size: 24px;
+    padding: 50px;
+    color: #314c54;
+  }
+  
+  /* Login.jsx */
+  
+  .login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+  .form-image {
+    min-width: 100px;
+    width: 300px;
+  }
+  .form-login {
+    display: grid;
+    place-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #23c7c8;
+    background-color: #a6e2e2;
+  }
+  .form-login h3{ 
+    color: rgb(23, 87, 28);
+    padding: 1px;
+  }
+  .input-body {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #23c7c8;
+    border-radius: 5px;
+    font-size: 16px; 
+  }
+  
+  
+  /* Register.jsx */
+  
+  .register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+  .form-register h3{ 
+    color: rgb(23, 87, 28);
+    padding: 1px;
+  }
+  .form-register {
+    display: grid;
+    place-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #8e8e8e;
+    background-color: #b7b7b7;
+  }
+  .input-register-body {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  
+  /* Users.jsx */
+  
+  .users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  .user-card {
+    display: grid;
+    place-items: center;
+    width: calc(30% - 1px); 
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+  
+  }
+  
+  /* UserDetail.jsx */
+  
+  .user-detail {
+    display: grid;
+    place-items: center;
+  }
+  .user-detail h1 {
+    width: 80%;
+    background-color: #329487;
+    color: white;
+    margin-bottom: -10px;
+    padding: 14px;
+    font-size: 10vw;
+  }
+  
+  }
+  
+  /* Home.jsx */
+  .home-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #00bea4; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .home-button:hover {
+    background-color: #00e9d3;
+  }
+  
+  .body-image {
+    min-width: 600px;
+    max-width: 700px;
+  }
+  .login-button {
+    width: 50%;
+    padding: 10px;
+    background-color: #00bea4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #23c7c8;
+  }
+  .login-button:hover {
+    background-color: #108080;
+  }
+  
+  .form-image {
+    min-width: 200px;
+    width: 300px;
+  }
+  
+  /* Register.jsx */
+  .register-button {
+    width: 50%;
+    padding: 10px;
+    background-color: #0056b3 ;
+    color: white;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .register-button:hover {
+    background-color: #00bea4;
+  }
+  
+  /* Users.jsx */
+  .detail-button {
+    padding: 10px;
+    background-color: #015e51 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+  .detail-button:hover {
+    background-color: #00bea4;
+  }
+  .page-button {
+    background-color:#42bdac;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+  }
+  .page-button:hover {
+    background-color: #329487;
+  }
+  .pagination {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+  }
+  .pagination span{
+    color:#42bdac;
+  }
