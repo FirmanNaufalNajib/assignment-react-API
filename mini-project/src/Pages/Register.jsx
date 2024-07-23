@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 import axios from "axios"
 import formImage from "../assets/images/illustrated-woman-being-intern-company/form-image.jpg"
 import Navbar from "../components/Navbar"
-//import "./pages.css"
+import "./pages.css"
 
 const Register = () => {
   const [email, setEmail] = useState("") 
@@ -12,12 +12,14 @@ const Register = () => {
 
   const navigate = useNavigate() 
 
-  const handleEmail = (e) => { 
+  const handleEmail = (e) => {   
     setEmail(e.target.value)
   }
   const handlePassword = (e) => {
     setPassword(e.target.value)
   }
+
+  console.log()
 
   const handleSubmit = () => { 
     const payload = {
